@@ -1,0 +1,173 @@
+[2023-07-04 09:20:08] local.ERROR: rename(C:\Users\bilqi\project2\bootstrap\cache\pac197.tmp,C:\Users\bilqi\project2\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\Users\\bilqi\\project2\\bootstrap\\cache\\pac197.tmp,C:\\Users\\bilqi\\project2\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\Users\\\\bilqi\\\\...', 'C:\\\\Users\\\\bilqi\\\\...')
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\Users\\\\bilqi\\\\...', '<?php return ar...')
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-07-04 09:20:08] local.ERROR: rename(C:\Users\bilqi\project2\bootstrap\cache\pac159.tmp,C:\Users\bilqi\project2\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\Users\\bilqi\\project2\\bootstrap\\cache\\pac159.tmp,C:\\Users\\bilqi\\project2\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\Users\\\\bilqi\\\\...', 'C:\\\\Users\\\\bilqi\\\\...')
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\Users\\\\bilqi\\\\...', '<?php return ar...')
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-07-04 09:20:08] local.ERROR: rename(C:\Users\bilqi\project2\bootstrap\cache\pac15A.tmp,C:\Users\bilqi\project2\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\Users\\bilqi\\project2\\bootstrap\\cache\\pac15A.tmp,C:\\Users\\bilqi\\project2\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\Users\\\\bilqi\\\\...', 'C:\\\\Users\\\\bilqi\\\\...')
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\Users\\\\bilqi\\\\...', '<?php return ar...')
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-07-04 09:20:08] local.ERROR: rename(C:\Users\bilqi\project2\bootstrap\cache\pac178.tmp,C:\Users\bilqi\project2\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\Users\\bilqi\\project2\\bootstrap\\cache\\pac178.tmp,C:\\Users\\bilqi\\project2\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\Users\\\\bilqi\\\\...', 'C:\\\\Users\\\\bilqi\\\\...')
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\Users\\\\bilqi\\\\...', '<?php return ar...')
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-07-04 09:20:08] local.ERROR: rename(C:\Users\bilqi\project2\bootstrap\cache\pac198.tmp,C:\Users\bilqi\project2\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\Users\\bilqi\\project2\\bootstrap\\cache\\pac198.tmp,C:\\Users\\bilqi\\project2\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:234)
+[stacktrace]
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'rename(C:\\\\Users...', 'C:\\\\Users\\\\bilqi\\\\...', 234)
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(234): rename('C:\\\\Users\\\\bilqi\\\\...', 'C:\\\\Users\\\\bilqi\\\\...')
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(182): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\Users\\\\bilqi\\\\...', '<?php return ar...')
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(137): Illuminate\\Foundation\\PackageManifest->write(Array)
+#5 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#6 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#7 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#8 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#9 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#10 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(428): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#11 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#12 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 {main}
+"} 
+[2023-07-04 09:20:08] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php:914
+Stack trace:
+#0 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(914): ReflectionClass->__construct('view')
+#1 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('view')
+#2 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('view', Array)
+#5 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php:916
+Stack trace:
+#0 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('view')
+#1 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('view', Array)
+#4 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914
+Stack trace:
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(914): ReflectionClass->__construct('view')
+#1 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('view')
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916
+Stack trace:
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('view')
+#1 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916)
+[stacktrace]
+#0 {main}
+"} 
+[2023-07-04 09:20:08] local.ERROR: Uncaught ReflectionException: Class "translator" does not exist in C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php:914
+Stack trace:
+#0 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(914): ReflectionClass->__construct('translator')
+#1 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('translator')
+#2 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('translator', Array)
+#5 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php:916
+Stack trace:
+#0 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build('translator')
+#1 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('translator', Array, true)
+#2 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('translator', Array)
+#3 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('translator', Array)
+#4 C:\Users\bilqi\project2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"translator\" does not exist in C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:914
+Stack trace:
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(914): ReflectionClass->__construct('translator')
+#1 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('translator')
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('translator', Array)
+#5 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [translator] does not exist. in C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916
+Stack trace:
+#0 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('translator')
+#1 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#2 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#3 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('translator', Array)
+#4 C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown at C:\\Users\\bilqi\\project2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:916)
+[stacktrace]
+#0 {main}
+"} 
